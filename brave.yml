@@ -23,5 +23,4 @@ ingredients:
    - MimeType=text/html;text/xml;application/xhtml_xml;image/webp;x-scheme-handler/http;x-scheme-handler/https;x-scheme-handler/ftp;
    - Actions=new-window;new-private-window;
    - EOF
-   - wget https://github.com/cmatomic/Appimage-006/raw/master/img/brave-browser.png -O usr/share/icons/hicolor/256x256/apps/brave-browser.png
-   - cp usr/share/icons/hicolor/256x256/apps/brave-browser.png .
+   - wget https://github.com/cmatomic/Appimage-006/raw/master/img/brave-browser.png
