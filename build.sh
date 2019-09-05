@@ -1,5 +1,5 @@
 #!/bin/bash
-./pkg2appimage Google_Chrome.yml
+./pkg2appimage brave.yml
 
 cd out/
 zsyncmake *.AppImage
