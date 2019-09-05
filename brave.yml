@@ -1,0 +1,10 @@
+app: brave-browser
+
+ingredients:
+  package: brave-browser
+  dist: trusty
+  sources: 
+    - deb http://us.archive.ubuntu.com/ubuntu/ trusty main universe
+  script:
+   - curl -s https://brave-browser-apt-release.s3.brave.com/brave-core.asc | sudo apt-key --keyring /etc/apt/trusted.gpg.d/brave-browser-release.gpg add -
+   - sudo sh -c 'echo "deb https://brave-browser-apt-release.s3.brave.com trusty main" >> /etc/apt/sources.list.d/brave.list'
