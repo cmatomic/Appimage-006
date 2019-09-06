@@ -9,7 +9,6 @@ ingredients:
    - curl -s https://brave-browser-apt-release.s3.brave.com/brave-core.asc | sudo apt-key --keyring /etc/apt/trusted.gpg.d/brave-browser-release.gpg add -
    - sudo sh -c 'echo "deb https://brave-browser-apt-release.s3.brave.com trusty main" >> /etc/apt/sources.list.d/brave.list'
    - sudo apt-get update
-   script:
    - cat > brave-browser.desktop <<EOF
    - [Desktop Entry]
    - Type=Application
