@@ -3,7 +3,6 @@
 app: brave-browser
 union: true
 ingredients:
-    - nss-softokn
   package: brave-browser
   dist: xenial
   sources: 
@@ -23,4 +22,3 @@ script:
   - mv opt/brave.com/brave/* usr/bin/ ; rm -rf opt/brave.com/brave
   - cp usr/bin/product_logo_256.png usr/share/icons/hicolor/256x256/apps/brave-browser.png
   - cp usr/share/icons/hicolor/256x256/apps/brave-browser.png .
-  #- cp -r /usr/lib/x86_64-linux-gnu/nss lib/
