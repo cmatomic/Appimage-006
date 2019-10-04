@@ -1,12 +1,7 @@
 # based on improvement by probonopd
 # https://github.com/AppImage/pkg2appimage/blob/master/recipes/Brave.yml
-
 app: brave-browser
-
-ingredients:
-  package: brave-browser
-  dist: xenial
-app: brave-browser
+union: true
 
 ingredients:
   package: brave-browser
