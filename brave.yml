@@ -9,8 +9,8 @@ ingredients:
   sources: 
    # - deb http://us.archive.ubuntu.com/ubuntu/ xenial main universe
    # - deb https://brave-browser-apt-release.s3.brave.com xenial main
-   # - deb https://brave-browser-apt-beta.s3.brave.com xenial main
-    - deb https://brave-browser-apt-dev.s3.brave.com xenial main
+   - deb https://brave-browser-apt-beta.s3.brave.com xenial main
+   # - deb https://brave-browser-apt-dev.s3.brave.com xenial main
 script:
   - cat > brave-browser.desktop <<EOF
   - [Desktop Entry]
