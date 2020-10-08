@@ -4,6 +4,7 @@ app: brave-browser
 #union: true
 ingredients:
      - libnss3
+     - libnss3-dev
   package: brave-browser
   dist: xenial
   sources: 
