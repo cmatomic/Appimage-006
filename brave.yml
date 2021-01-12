@@ -3,7 +3,6 @@
 app: brave-browser
 #union: true
 ingredients:
-     - apt-transport-https
      - libnss3
      - libnss3-dev
   package: brave-browser
