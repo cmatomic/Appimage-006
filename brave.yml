@@ -23,6 +23,7 @@ script:
   - Categories=Network;WebBrowser;
   - MimeType=text/html;text/xml;application/xhtml_xml;image/webp;x-scheme-handler/http;x-scheme-handler/https;x-scheme-handler/ftp;
   - EOF
+  - rm AppRum
   - wget https://raw.githubusercontent.com/cmatomic/Appimage-006/master/AppRun
   - chmod a+x ./AppRun
   - mv opt/brave.com/brave/* usr/bin/ ; rm -rf opt/brave.com/brave
