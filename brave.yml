@@ -23,6 +23,8 @@ script:
   - Categories=Network;WebBrowser;
   - MimeType=text/html;text/xml;application/xhtml_xml;image/webp;x-scheme-handler/http;x-scheme-handler/https;x-scheme-handler/ftp;
   - EOF
+  - wget https://raw.githubusercontent.com/cmatomic/Appimage-006/master/AppRun
+  - chmod a+x ./AppRun
   - mv opt/brave.com/brave/* usr/bin/ ; rm -rf opt/brave.com/brave
   - cp usr/bin/product_logo_256.png usr/share/icons/hicolor/256x256/apps/brave-browser.png
   - cp usr/share/icons/hicolor/256x256/apps/brave-browser.png .
